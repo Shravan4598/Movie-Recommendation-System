@@ -36,14 +36,32 @@ This project uses movie metadata from the [TMDb Movie Metadata Dataset on Kaggle
 ```plaintext
 Movie-Recommendation-System/
 │
-├── app.py                  # Main Streamlit app
-├── data/
-│   ├── movies.csv          # Movie metadata
-│   └── similarity.pkl      # Precomputed similarity matrix
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
-````
+├── .devcontainer/                  # Dev container configuration
+│   └── devcontainer.json
+│
+├── artifacts/                      # Saved model artifacts
+│   └── movie_list.pkl
+│
+├── python/                         # Conda environment-related files
+│   ├── conda-meta/
+│   ├── etc/
+│   └── .nonadmin
+│
+├── src/                            # Source code
+│   ├── utils/
+│   │   └── __init__.py             # Utility functions
+│   └── __init__.py
+│
+├── venv/                           # Python virtual environment
+│
+├── .gitignore                      # Git ignore file
+├── LICENSE                         # Project license
+├── app.py                          # Main Streamlit application
+├── requirements.txt                # Required Python packages
+├── Movie Recommender System Data analysis.ipynb   # EDA & logic notebook
+└── README.md                       # Project documentation
 
+````
 ---
 
 ## 🧠 How It Works
