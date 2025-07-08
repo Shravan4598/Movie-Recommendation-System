@@ -112,10 +112,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 ---
-
-Let me know if you’d like to add:
-- A section on how to generate `similarity.pkl`
-- An About Me section
-- Technologies or badges
-
-Ready to commit this to your GitHub?
